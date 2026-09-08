@@ -122,7 +122,7 @@ plt.yticks(rotation=90)
 
 st.pyplot(plt)
 plt.figure()
-plt.scatter(df['Name'],df['Final Exam'],colors='r')
+plt.scatter(df['Name'],df['Final Exam'])
 plt.title('Final Exam Gradse')
 plt.xlabel('Name')
 plt.ylabel('Final Exam')

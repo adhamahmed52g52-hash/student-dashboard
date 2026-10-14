@@ -113,7 +113,7 @@ st.markdown('An interactive overview analyzing student grade distribution, cours
 st.dataframe(df)
 
 plt.bar(df['Name'],df['Final Exam'])
-plt.title('Final Exam Gradse')
+plt.title('Final Exam Grades')
 
 plt.xlabel('Name')
 plt.ylabel('Final Exam')
